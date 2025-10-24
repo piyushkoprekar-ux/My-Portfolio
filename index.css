@@ -146,6 +146,42 @@
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(10,1fr);
 }
+.experience-container{
+    grid-column: 1/11;
+    grid-row: 2/8;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.card{
+    height: 100%;
+    width: 40%;
+    background-color: #feffff;
+    border-radius: 20px;
+    border: 2px solid grey; 
+    box-shadow: 1px 1px 20px rgb(177, 179, 179);
+    margin-top: 4rem;
+}
+.Page3 h1{
+    margin-left: 32rem;
+    margin-top: 3rem;
+}
+.card h2{
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+    
+}
+.text h4{
+    margin-left: 3rem;
+    font-weight: 600;
+}
+.text p{
+    margin-left: 3rem;
+}
+.text img{
+    margin-left: 1.5rem;
+    
+}
 
 
 
