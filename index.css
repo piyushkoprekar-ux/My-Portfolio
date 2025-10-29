@@ -182,6 +182,176 @@
     margin-left: 1.5rem;
     
 }
+.Page4{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+.Page4 h1{
+    margin-left: 33rem;
+    margin-top: 3rem;
+}
+.Blocks{
+    grid-column: 1/11;
+    grid-row: 3/9;
+    display: flex;
+    justify-content: center;
+    /* background-color: bisque; */
+    gap: 25px;
+}
+.B1{
+    height: 90%;
+    width: 20%;
+    background-color: #feffff;
+    border-radius: 20px;
+    border: 2px solid grey; 
+    margin-top: 1rem;
+}
+.B1 p{
+    margin-left: 4.5rem;
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+.github{
+    margin-left: 3rem;
+    /* margin-top: rem; */
+    margin-right: 5px;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 10px;
+}
+.live{
+    margin-right: 10px;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 10px;
+}
+.Page5{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+.contact-container {
+  /* background-color: #f9f7f4; white-cream card */
+  width: 80%;
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-left: 12rem;
+}
+.contact-left {
+  flex: 1;
+  padding-right: 40px;
+}
+.contact-left h1 {
+  font-size: 40px;
+  color: #8b3a1a; /* brown title */
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-size: 18px;
+  color: #8b3a1a;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.email {
+  margin-bottom: 30px;
+}
+.email a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.social-icons i {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #333;
+  cursor: pointer;
+}
+.contact-right {
+  flex: 1;
+}
+form {
+  width: 100%;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 48%;
+}
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  outline: none;
+  background-color: #fff;
+}
+textarea {
+  resize: none;
+}
+.Page5 button {
+  background-color: #8b3a1a;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #a44b25;
+}
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .contact-left, .contact-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
 
 
 
