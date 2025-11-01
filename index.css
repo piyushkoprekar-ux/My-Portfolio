@@ -21,7 +21,7 @@
     gap: 2rem;
     position:sticky;
     /* background-color: #8b3a1a; */
-    /* box-shadow: 1px 1px 20px rgb(177, 179, 179); */ 
+    box-shadow: 1px 1px 20px rgb(177, 179, 179); 
 }
 .nav-item{
     margin: 0 20px;
